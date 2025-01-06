@@ -12,6 +12,8 @@ Twitter activity, such as liking, retweeting, and tweeting, reflects personal in
 
 This project aims to analyze my own Twitter activity to uncover meaningful patterns and trends, helping me better understand my preferences and how I engage with the platform.  
 
+Hypothesis: My activities on Twitter such as likes, retweets and tweets depend on the time in a day.
+
 ---
 
 ## Main Research Questions  
