@@ -9,7 +9,7 @@ Twitter activity, such as liking, retweeting, and tweeting, reflects personal in
 This project aims to:  
 - Analyze my historical Twitter activity to uncover patterns in engagement and content.  
 - Develop models to forecast future tweet activity based on temporal trends.  
-- Use thematic analysis to classify and predict the content types I engage with most.  
+- Perform sentiment analysis to better understand the tone of my tweets over time.  
 
 This analysis will help better understand my preferences, engagement habits, and future trends in my Twitter activity.
 
@@ -22,15 +22,13 @@ This analysis will help better understand my preferences, engagement habits, and
 - Are there specific periods of increased or decreased activity?  
 - Can I predict future trends in my Twitter engagement (e.g., daily tweet counts)?  
 
-### **Tweet Content and Themes**  
+### **Tweet Content and Sentiment**  
 - What are the most common themes, topics, or hashtags in my tweets?  
-- How do these themes change over time?  
 - What is the sentiment of my tweets, and how does it evolve over time?  
-- Can I classify tweets into distinct thematic categories using clustering?  
 
 ### **Time-Based Activity**  
 - At what times or days am I most active on Twitter?  
-- Is there a correlation between the time of activity and the themes or sentiment of my tweets?  
+- Is there a correlation between the time of activity and the sentiment of my tweets?  
 
 ---
 
@@ -54,19 +52,15 @@ This archive provides a comprehensive view of my activity on Twitter and serves 
 - Build time series models to forecast future tweet activity (e.g., daily tweet counts).  
 - Identify seasonal or periodic patterns in my Twitter usage.  
 
-### **3. Thematic and Content Insights**  
-- Perform clustering and topic modeling to identify recurring themes in my tweets.  
-- Analyze how themes correlate with engagement and sentiment.  
-
-### **4. Sentiment Analysis**  
+### **3. Sentiment Insights**  
 - Assess the sentiment (positive, negative, neutral) of my tweets and analyze its evolution over time.  
-- Identify the relationship between sentiment and thematic trends.  
+- Identify the relationship between sentiment and engagement patterns.  
 
-### **5. Visualizing Patterns**  
-- Develop visualizations to highlight temporal trends, engagement statistics, and thematic clusters.  
+### **4. Visualizing Patterns**  
+- Develop visualizations to highlight temporal trends, engagement statistics, and sentiment analysis results.  
 
-### **6. Future Activity Predictions**  
-- Combine thematic analysis and time series forecasting to predict future activity patterns and themes.  
+### **5. Future Activity Predictions**  
+- Combine sentiment analysis and time series forecasting to predict future activity patterns and sentiment trends.  
 
 ---
 
@@ -82,21 +76,16 @@ This archive provides a comprehensive view of my activity on Twitter and serves 
 - Generate summary statistics and identify outliers or spikes in activity.  
 - Visualize activity trends over time.  
 
-### **3. Text and Thematic Analysis**  
-- Perform text preprocessing (e.g., tokenization, stopword removal, and stemming).  
-- Use clustering and topic modeling (e.g., K-Means, LDA) to uncover key themes in tweets.  
-- Analyze the distribution of themes and their temporal changes.  
-
-### **4. Sentiment Analysis**  
+### **3. Sentiment Analysis**  
 - Apply sentiment analysis to tweets to classify them as positive, negative, or neutral.  
 - Track sentiment over time to detect patterns and trends.  
 
-### **5. Forecasting with Time Series Models**  
+### **4. Forecasting with Time Series Models**  
 - Use ARIMA or advanced models (e.g., Prophet, LSTM) to forecast future activity.  
 - Predict daily or hourly tweet counts for the next 7–30 days.  
 - Evaluate model performance using metrics like RMSE or MAE.  
 
-### **6. Insights and Recommendations**  
+### **5. Insights and Recommendations**  
 - Reflect on the analysis and modeling results to understand how my activity aligns with personal interests.  
 - Provide actionable insights for optimizing future engagement or content strategy.  
 
@@ -106,7 +95,6 @@ This archive provides a comprehensive view of my activity on Twitter and serves 
 
 1. **Analytical Insights:**  
    - Trends in engagement patterns (likes, retweets, and tweets).  
-   - Themes and topics of interest based on clustering and topic modeling.  
    - Sentiment evolution over time.  
 
 2. **Forecasting Model:**  
@@ -115,9 +103,9 @@ This archive provides a comprehensive view of my activity on Twitter and serves 
 
 3. **Visual Representations:**  
    - Time-based activity charts (daily, hourly).  
-   - Word clouds and thematic visualizations.  
+   - Sentiment analysis visualizations.  
    - Forecasting graphs showing observed and predicted trends.  
 
 4. **Recommendations:**  
-   - Suggestions for content themes and timing to optimize engagement.  
+   - Suggestions for content timing and themes to optimize engagement.  
    - Insights on how my Twitter activity aligns with personal interests and habits.  
